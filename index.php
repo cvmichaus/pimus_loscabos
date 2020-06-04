@@ -76,7 +76,7 @@
           <li><a  href="#noticias">¡Infórmate más!</a></li>
           <li><a href="#">¡Construyendo el futuro de la movilidad!</a>
               <ul>
-              <li><a href="#futuromovilidad" onclick="cargarDiv('#movilidadiv','sub1.php')"; >Gestión de la demanda del transporte motorizado particular</a></li>
+              <li><a href="#futuromovilidad" onclick="cargarDiv('#movilidadiv','sub1.php')"; >Gestión del transporte motorizado particular</a></li>
               <li><a href="#futuromovilidad" onclick="cargarDiv('#movilidadiv','sub2.php')";>Movilidad turística</a></li>
               <li><a href="#futuromovilidad" onclick="cargarDiv('#movilidadiv','sub3.php')";>Ordenamiento y modernización del transporte de carga</a></li>
               <li><a href="#futuromovilidad" onclick="cargarDiv('#movilidadiv','sub4.php')";>Transporte público</a></li>
