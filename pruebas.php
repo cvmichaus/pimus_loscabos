@@ -80,18 +80,8 @@ text-align: left;
  <div class="row">
 		<div class="col">
 
-			<div class="row">
-			<div class="col">
-				<br><br><br>
-			</div>
-			<div class="col">
-				<br><br><br>
-			</div>
-			<div class="col">
-				<br><br><br>
-			</div>
-			</div>
-
+			
+<label style="text-align: left;font-weight: bolder;color: #3fa3b8;font-size: 1em;"><h2>Evidencias</h2></label>
 			<div class="row">
 			<div class="col">
 				<div class="evidencias">
@@ -117,21 +107,8 @@ text-align: left;
 			</div>
 			</div>
 
-			<div class="row">
-			<div class="col">
-				<br><br><br>
-			</div>
-			<div class="col">
-				<br><br><br>
-			</div>
-			<div class="col">
-				<br><br><br>
-			</div>
-			</div>
 
-			
-
-
+<label style="text-align: left;font-weight: bolder;color: #b0ca9e;font-size: 1em;"><h2>Metas</h2></label>
 			<div class="row">
 			<div class="col">
 				<div class="metas">
@@ -198,10 +175,27 @@ text-align: left;
 	</div>
 	<div class="col" style="text-align: left;">
 	<label style="font-size: .9em; color: #000000;text-align: left;">
-		
+		2,3,10,11 y 13
 
 	</label>
-	</div>	
+	</div>
+
+	<div class="col" style="text-align: left;">
+	<label style="font-size: 1em; font-weight: bolder;color: #3fa3b8;text-align: left;">Tipo de acción</label>
+	</div>
+	<div class="col" style="text-align: left;">
+	<label style="font-size: .9em; color: #000000;text-align: left;">
+		<ul style="font-size: .8em">
+	    <li>INFR: infraestructura</li>
+		<li>INFO: información</li>
+		<li>GES: gestión</li>
+		<li>CAP: capacitación</li>
+	  </ul>		
+
+	</label>
+	</div>
+
+
      </div>
     <div class="col" style="text-align: left;">
     	<div class="col" style="text-align: left;">
@@ -210,22 +204,12 @@ text-align: left;
 
 	<div class="col" style="text-align: left;">
 	<label style="font-size: .7em; color: #000000;text-align: left;">
-		<ul>
-			<li>
-				Señalización de carriles preferenciales de transporte público o bus bici.
-			</li>
-			<ul>
-			<li>CSL: Leona Vicario, Tezozómoc, José María Morelos, Lázaro Cárdenas y Los Cabos</li>
-			<li>SJC: Manuel Doblado, Forjadores, Dr. Ernesto Chánez Chávez y Calle Gandhi.</li>
-			</ul>
-			<li style="color:red;">Señalar carriles de alta ocupación o carril preferente de transporte público:</li>
-			<ul>
-			<li>Carretera Transpeninsular en los tramos urbanos</li>
-			</ul>	
-			<li>Establecer y promover un día sin automóvil para personal no esencial (Post Covid). Los miércoles de cada mes.</li>
-			<li>Implementar programa de auto compartido para los empleados de los principales centros laborales del municipio.</li>
-			<li>Creación y desarrollo de un manual de calles completas para Los Cabos adoptando parámetros del Manual de Calles de SEDATU</li>
-
+		<ul style="font-size: .8em">
+<li>INFR - Señalización de carriles preferenciales de transporte público o bus bici. (1,2 y A)</li>
+<li>INFR - Carriles de alta ocupación o carril preferente de transporte público (1,2 y A).</li>
+<li>GEST - Día sin automóvil para personal no esencial (Post Covid). Los miércoles de cada mes. (1 y A)</li>
+<li>GEST - Programa de auto compartido para los empleados de los principales centros laborales del municipio. (1 y A)</li>
+<li>INF - Manual de calles completas para Los Cabos, adoptando parámetros del Manual de Calles de SEDATU. (1)</li>
 		</ul>
 		
 
@@ -239,28 +223,24 @@ text-align: left;
 	</div>
 	<div class="col" style="text-align: left;">
 	<label style="font-size: .8em; color: #000000;text-align: left;">
-		<ul>
-			<li>
-				Implementación de ecozonas por fases
-			</li>
-			<ul>
-			<li>Centros históricos y zonas concentradoras de servicios-equipamiento y turísticas.</li>
-			</ul>
-			<li>Programa de parquímetros por fases</li>
-			<li>Implementación de sistemas de auto compartido para turistas (carsharing).</li>	
-			<li>Crear convenios entre los desarrolladores turísticos hoteleros para instalación de mobiliario urbano e infraestructura peatonal y ciclista cercana a los centros turísticos.</li>
-			<li>Convenio con empresas y hoteles para que sus trabajadores realicen viajes en bicicleta a cambio de incentivos económicos / bonos</li>
-			<li>Realizar una auditoría anual de las vías bajo los principios de Calle Completa en las vías pertenecientes a la red vial estratégica.				
-			</li>
-			<li>Incorporar al estudio de impacto urbano un apartado de impacto de movilidad, considerando los siguientes elementos:</li>
-			<ul>
-			<li>Descripción de oferta de movilidad en todos los modos de transporte</li>
-			<li>Descripción de la demanda actual de movilidad en todos los modos de transporte</li>
-			<li>Estudio de calidad del ambiente peatonal</li>
-			<li>Seguridad vial</li>
-			<li>Estimación de escenarios futuros</li>
-			<li>Plan de Movilidad [Medidas de mitigación, compensación, integración]</li>
-			<li>Con base en una calculadora de impactor en la movilidad de los desarrollos turísticos*</li>
+		<ul style="font-size: .8em">
+<li>GEST - Programa de ecozonas en centros históricos, zonas de servicios-equipamiento y turísticas. (1 y A)</li>
+<li>GEST - Programa de parquímetros (A,1,2 y 3)</li>
+<li>GEST - Sistema de auto compartido para turistas (carsharing). (1 y A)</li>
+<li>GEST- Convenio con desarrolladores turísticos hoteleros para instalación de mobiliario urbano e infraestructura peatonal y ciclista cercana a los centros turísticos. (1)</li>
+<li>GEST - Convenio con empresas y hoteles para que sus trabajadores realicen viajes en bicicleta a cambio de incentivos económicos / bonos (1)</li>
+<li>GEST- Auditoría anual de las vías bajo los principios de Calle Completa en las vías pertenecientes a la red vial estratégica. (1)</li>
+<li>GEST- Apartado de impacto de movilidad dentro del estudio de impacto urbano, considerando los siguientes elementos (4):
+</li>
+			<ul style="list-style: decimal;font-size: .8em">
+<li>Descripción de oferta de movilidad en todos los modos de transporte</li>
+<li>Descripción de la demanda actual de movilidad en todos los modos de transporte</li>
+<li>Estudio de calidad del ambiente peatonal</li>
+<li>Seguridad vial</li>
+<li>Estimación de escenarios futuros</li>
+<li>Plan de Movilidad [Medidas de mitigación, compensación, integración]</li>
+<li>Con base en una calculadora de impacto en la movilidad de los desarrollos turísticos*</li>
+
 			</ul>
 		</ul>
 		
@@ -273,19 +253,10 @@ text-align: left;
 	</div>
 	<div class="col" style="text-align: left;">
 	<label style="font-size: .8em; color: #000000;text-align: left;">
-		<ul>
-			<li>
-				Restricciones a la circulación con temas ambientales
-			</li>
-			
-			<li>Cobro por el uso de la infraestructura vial municipal a empresas de redes de transporte</li>
-			<li>Implementación de sistemas de auto compartido para turistas (carsharing).</li>	
-			
-			<li>Desarrollo de sistema Park and Ride (complementario a los centros de transferencia intermodal), para incentivar viajes en transporte o medio no motorizados al centro de los poblados y cerca de los desarrollos turísticos: </li>
-			<ul>
-			<li>Sobre Av. Reforma  al centro de CSL</li>
-			<li>Cercano a la glorieta de FONATUR en SJC. </li>
-			</ul>
+		<ul style="font-size: .8em" >
+<li>GEST - Restricciones a la circulación con temas ambientales (1 y A)</li>
+<li>GEST - Cobro por el uso de la infraestructura vial municipal a empresas de redes de transporte. (1 y A)</li>
+<li>INFR - Desarrollo de sistema Park and Ride (complementario a los centros de transferencia intermodal), para incentivar viajes en transporte o medio no motorizados al centro de los poblados y cerca de los desarrollos turísticos. (1,2 y A).</li>
 		</ul>
 		
 	</label>
@@ -299,9 +270,8 @@ text-align: left;
  <hr>
 
 <div class="container-fluid" width="100%">
-
-
  <div class="row row-cols-4">
+
      <div class="col" style="text-align: left;">
      	<div class="col" style="text-align: left;">
 	<label style="font-size: 1em; font-weight: bolder;color: #3fa3b8;text-align: left;">
@@ -310,7 +280,10 @@ text-align: left;
 	</div>
 	<div class="col" style="text-align: left;">
 	<label style="font-size: .9em; color: #000000;text-align: left;">
-		
+	<ul style="font-size: .8em;list-style: decimal;" >
+<li>Art. 5. Es atribución del Director General de Seguridad Publica y Tránsito Municipal señalar el sentido de la circulación, así como determinar las zona de estacionamientos</li>
+<li>Ley de ingresos</li>
+	</ul>
 	</label>
 	</div>	
 
@@ -321,7 +294,15 @@ text-align: left;
 	</div>
 	<div class="col" style="text-align: left;">
 	<label style="font-size: .9em; color: #000000;text-align: left;">
-		
+		<ul style="font-size: .8em">
+<li>Incorporar al estudio de impacto urbano un apartado de impacto de movilidad</li>
+<li>Incorporar al reglamento de construcción los parámetros del Manual de Calles completas</li>
+<li>Incorporar a la ley de ingresos el cobro por uso de la vía</li>
+<li>Incluir la definición de carriles preferenciales, uso exclusivo de transporte público o bus bici, carril de alta ocupación, restricciones a la circulación por temas ambientales y  en el reglamento de tránsito.</li>
+<li>Incorporar la definición y un apartado para ecozonas</li>
+<li>En el reglamento de construcción incorporar las características de construcción de los carriles exclusivos, confinados y de alta ocupación.</li>
+<li>Convenios con el sector privado para el fomento de uso de medios no motorizados y construcción de infraestructura para ellos</li>
+		</ul>
 
 	</label>
 	</div>	
@@ -335,11 +316,15 @@ text-align: left;
 
 	<div class="col" style="text-align: left;">
 	<label style="font-size: .7em; color: #000000;text-align: left;">
+		<span style="color:grey; font-weight: bolder;">Responsable</span>
 		<ul>
-			<li>IMPLAN</li>
-			<li>Dirección General de Obras Públicas Asentamientos Humanos </li>
-			<li>Dirección de Seguridad Pública y Tránsito Municipal.</li>
-			<li>Dirección General de Desarrollo Urbano </li>
+			<li>Dirección de Seguridad Pública y Tránsito Municipal</li>
+		</ul>
+		<span style="color:grey; font-weight: bolder;">Corresponsables</span>
+		<ul style="list-style: decimal;font-size: 1em;">
+		<li>IMPLAN</li> 
+		<li>Dirección General de Obras Públicas Asentamientos Humanos</li>
+		<li>Dirección General de Desarrollo Urbano</li>
 		</ul>
 	</label>
 	</div>	
@@ -352,7 +337,10 @@ text-align: left;
 	</div>
 	<div class="col" style="text-align: left;">
 	<label style="font-size: .8em; color: #000000;text-align: left;">
-		
+		<ul>
+	<li>Demanda de transporte para turistas</li>
+	<li>Oferta de estacionamientos</li>
+		</ul>
 	</label>
     </div>
      </div>
@@ -362,18 +350,57 @@ text-align: left;
 	<center><img src="img/atencion.png" width="35%"></center>
      Atención a grupos vulnerables</label>
 	</div>
+		<div class="col" style="text-align: left;">
+	<label style="font-size: .8em; color: #000000;text-align: left;">
+		Esta estrategia no atiende a ningún grupo vulnerable en particular
+
+	</label>
+    </div>
+
+
 	<div class="col" style="text-align: left;">
 	<label style="font-size: 1em; font-weight: bolder;color:#efbc14;text-align: left;">Acciones ante 
 contingencias</label>
 	</div>
 	<div class="col" style="text-align: left;">
 	<label style="font-size: .8em; color: #000000;text-align: left;">
-		
+		Establecer un día sin automóvil para fomentar home office para personal no esencial. 
 	</label>
     </div>
       </div>
   </div>
- 
+
+  <div class="row row-cols-2">
+<div class="col" style="text-align: left;">
+	<label style="font-size: 1em; font-weight: bolder;color:#b12447;text-align: left;">Estrategias - Cabo San Lucas</label>
+	<img src="img/01-Estrategias - Cabo San Lucas.jpg" width="100%">
+	</div>
+
+	<div class="col" style="text-align: left;">
+	<label style="font-size: 1em; font-weight: bolder;color:#b12447;text-align: left;">Estrategias - Centro de Cabo San Lucas
+		<img src="img/01-Estrategias - Centro de Cabo San Lucas.jpg" alt="" width="100%">
+</label>
+	</div>
+
+
+  </div>
+
+    <div class="row row-cols-2">
+<div class="col" style="text-align: left;">
+	<label style="font-size: 1em; font-weight: bolder;color:#b12447;text-align: left;">Estrategias – San José del Cabo
+</label>
+	<img src="img/01-Estrategias – San José del Cabo.jpg" width="100%">
+	</div>
+
+	<div class="col" style="text-align: left;">
+	<label style="font-size: 1em; font-weight: bolder;color:#b12447;text-align: left;">Estrategias - Centro de San José del Cabo
+		<img src="img/01-Estrategias - Centro de San José del Cabo.jpg" alt="" width="100%">
+</label>
+	</div>
+
+
+  </div>
+
  </div>
 </center>
 

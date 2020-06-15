@@ -1213,7 +1213,7 @@ el diagnóstico. </p>
 
        <section id="futuromovilidad" class="call-to-action wow fadeInUp"><br><br>
      <center><h2>¡Construyendo el futuro de la movilidad!</h2></center><br>
-    <div id="movilidadiv">
+    <div id="movilidadiv" style="overflow-y: scroll;height:400px;width: 100%">
       
     </div>
   </section>
