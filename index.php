@@ -86,7 +86,6 @@
               <li><a href="#futuromovilidad" onclick="cargarDiv('#movilidadiv','sub8.php')";>Seguridad vial</a></li>
               <li><a href="#futuromovilidad" onclick="cargarDiv('#movilidadiv','sub9.php')";>Gestión del tránsito</a></li>
               <li><a href="#futuromovilidad" onclick="cargarDiv('#movilidadiv','sub10.php')";>Gestión del estacionamiento</a></li>
-              <li><a href="#futuromovilidad" onclick="cargarDiv('#movilidadiv','sub11.php')";>Institucional</a></li>
               <li><a href="#futuromovilidad" onclick="cargarDiv('#movilidadiv','sub12.php')";>Ambiental y mitigación de gases de efecto invernadero</a></li>
               <li><a href="#futuromovilidad" onclick="cargarDiv('#movilidadiv','sub13.php')";>Espacio público</a></li>             
               </ul>

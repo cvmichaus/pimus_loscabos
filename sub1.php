@@ -370,28 +370,30 @@ contingencias</label>
       </div>
   </div>
 
-  <div class="row row-cols-2">
+  <div class="row row-cols-12">
 <div class="col" style="text-align: left;">
 	<label style="font-size: 1em; font-weight: bolder;color:#b12447;text-align: left;">Estrategias - Cabo San Lucas</label>
 	<img src="img/01-Estrategias - Cabo San Lucas.jpg" width="100%">
 	</div>
+</div>
 
+ <div class="row row-cols-12">
 	<div class="col" style="text-align: left;">
 	<label style="font-size: 1em; font-weight: bolder;color:#b12447;text-align: left;">Estrategias - Centro de Cabo San Lucas
 		<img src="img/01-Estrategias - Centro de Cabo San Lucas.jpg" alt="" width="100%">
 </label>
 	</div>
-
-
   </div>
 
-    <div class="row row-cols-2">
+    <div class="row row-cols-12">
 <div class="col" style="text-align: left;">
 	<label style="font-size: 1em; font-weight: bolder;color:#b12447;text-align: left;">Estrategias – San José del Cabo
 </label>
 	<img src="img/01-Estrategias – San José del Cabo.jpg" width="100%">
 	</div>
+</div>
 
+ <div class="row row-cols-12">
 	<div class="col" style="text-align: left;">
 	<label style="font-size: 1em; font-weight: bolder;color:#b12447;text-align: left;">Estrategias - Centro de San José del Cabo
 		<img src="img/01-Estrategias - Centro de San José del Cabo.jpg" alt="" width="100%">
