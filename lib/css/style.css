@@ -8,9 +8,16 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+
+@font-face {
+  font-family: Roboto;
+  src: url("../../fonts/Roboto-Regular.ttf");
+}
+
 body {
   background-color: #fff;
-  color: #333;
+  color: #000;
+  font-family: Roboto;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -40,28 +47,24 @@ h5 {
 a {
   letter-spacing: 2px;
   text-decoration: none;
+  font-family: Roboto;
 }
 
 ul {
-  letter-spacing: 1px;
+  letter-spacing: 0px;
+  font-family: Roboto;
+  color: #000;
 }
 
 li {
-  color: #626262;
-  font-size: 13px;
-  font-weight: 400;
-  letter-spacing: 2px;
-  line-height: 30px;
-  text-transform: capitalize;
+  color: #000;
+  text-transform: initial;
+  font-family: Roboto;
 }
 
 p {
   color: #505050;
-  font-size: 14px;
-  font-weight: 300;
-  letter-spacing: 0.5px;
-  line-height: 2;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 span {
@@ -156,7 +159,7 @@ span {
 
 #header #logo h1 {
   color: #505050;
-  font-family: "Philosopher", sans-serif;
+  font-family: "Roboto";
   font-size: 26px;
   font-weight: 500;
   letter-spacing: 1px;
@@ -220,7 +223,7 @@ span {
   font-size: 48px;
   font-weight: 700;
   line-height: 56px;
-  font-family: "Philosopher", sans-serif;
+  font-family: "Roboto";
   color: #71c55d;
 }
 
@@ -235,7 +238,7 @@ span {
   color: #777;
   margin-bottom: 30px;
   font-size: 20px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto";
   font-weight: 300;
 }
 
@@ -253,7 +256,7 @@ span {
 }
 
 #hero .btn-get-started {
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto";
   text-transform: uppercase;
   font-weight: 400;
   font-size: 13px;
@@ -282,6 +285,7 @@ span {
   margin: 4px 20px;
   text-decoration: none;
   transition: 0.3s;
+  font-family: "Roboto";
 }
 
 @media (max-width: 575px) {
@@ -341,17 +345,17 @@ span {
 }
 
 .sf-arrows .sf-with-ul:after {
-  content: "\f107";
+ 
   position: absolute;
   right: 8px;
   margin-top: 1px;
-  font-family: FontAwesome;
+  font-family: "Roboto";
   font-style: normal;
   font-weight: normal;
 }
 
 .sf-arrows ul .sf-with-ul:after {
-  content: "\f105";
+  /*content: "\f105";*/
 }
 
 /* Nav Meu Container */
@@ -372,9 +376,9 @@ span {
   text-decoration: none;
   display: inline-block;
   color: #555;
-  font-family: "Roboto", sans-serif;
-  font-weight: 300;
-  font-size: 10px;
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 13.3px;
   outline: none;
   letter-spacing: 0;
   transition: 0.3s;
@@ -555,12 +559,12 @@ body.mobile-nav-active #mobile-nav-toggle i {
 }
 
 .section-title h2 {
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto";
   font-size: 45px;
   font-weight: 100;
   letter-spacing: 2px;
   margin-bottom: 20px;
-  text-transform: capitalize;
+  text-transform: initial;
 }
 
 .section-title .separator {
@@ -569,7 +573,7 @@ body.mobile-nav-active #mobile-nav-toggle i {
 
 .separator {
   color: #626262;
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto";
   font-size: 15px;
   font-weight: 300;
   margin-bottom: 30px;
@@ -637,13 +641,13 @@ body.mobile-nav-active #mobile-nav-toggle i {
 }
 
 #comotemueves .about-content h2 {
-  color: #252525;
-  font-family: "roboto";
-  font-size: 39px;
+  color: #000;
+  font-family: "Roboto";
+  font-size: 20px;
   font-weight: 100;
   letter-spacing: 2px;
   margin-bottom: 20px;
-  text-transform: capitalize;
+  text-transform: initial;
 }
 
 #comotemueves .about-content span {
@@ -671,13 +675,13 @@ body.mobile-nav-active #mobile-nav-toggle i {
 }
 
 #about-us .about-content h2 {
-  color: #252525;
-  font-family: "roboto";
+  color: #000;
+  font-family: "Roboto";
   font-size: 39px;
   font-weight: 100;
   letter-spacing: 2px;
   margin-bottom: 20px;
-  text-transform: capitalize;
+  text-transform: initial;
 }
 
 #about-us .about-content span {
@@ -993,7 +997,7 @@ body.mobile-nav-active #mobile-nav-toggle i {
   color: #71c55d;
   content: "";
   display: inline-block;
-  font: 70px/1 FontAwesome;
+  font: 70px/1 Roboto;
   position: absolute;
   right: 43px;
   text-align: left;
@@ -1006,11 +1010,11 @@ body.mobile-nav-active #mobile-nav-toggle i {
   font-weight: 100;
   letter-spacing: 2px;
   margin-bottom: 20px;
-  text-transform: capitalize;
+  text-transform: initial;
 }
 
 #cabosemueve .top-top > h4 {
-  font: 700 12px Lato, sans-serif;
+  font: 700 12px Roboto;
 }
 
 #cabosemueve .top-top span {
@@ -1144,7 +1148,7 @@ body.mobile-nav-active #mobile-nav-toggle i {
 #blog .block-blog .content-blog h4 {
   line-height: 24px;
   margin-bottom: 20px;
-  text-transform: capitalize;
+  text-transform: initial;
   font-weight: normal;
   letter-spacing: 0;
   font-size: 16px;
@@ -1172,7 +1176,7 @@ body.mobile-nav-active #mobile-nav-toggle i {
   text-decoration: none;
   transition: 0.3s;
   letter-spacing: 0;
-  text-transform: capitalize;
+  text-transform: initial;
 }
 
 #blog .block-blog .content-blog a.readmore:hover {
@@ -1393,7 +1397,7 @@ body.mobile-nav-active #mobile-nav-toggle i {
 #contactanos .block-blog .content-blog h4 {
   line-height: 24px;
   margin-bottom: 20px;
-  text-transform: capitalize;
+  text-transform: initial;
   font-weight: normal;
   letter-spacing: 0;
   font-size: 16px;
@@ -1421,7 +1425,7 @@ body.mobile-nav-active #mobile-nav-toggle i {
   text-decoration: none;
   transition: 0.3s;
   letter-spacing: 0;
-  text-transform: capitalize;
+  text-transform: initial;
 }
 
 #contactanos .block-blog .content-blog a.readmore:hover {
@@ -1631,7 +1635,7 @@ body.mobile-nav-active #mobile-nav-toggle i {
   color: #fff;
   display: inline-block;
   float: none;
-  font-family: "Philosopher", sans-serif;
+  font-family: "Roboto";
   font-size: 24px;
   font-weight: 500;
   height: 100%;
@@ -1669,7 +1673,7 @@ body.mobile-nav-active #mobile-nav-toggle i {
 .footer .copyrights p, .footer .copyrights .credits {
   margin: 0;
   padding: 0;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Roboto";
   font-weight: normal;
   font-size: 14px;
   letter-spacing: 0;
@@ -1939,11 +1943,11 @@ body.mobile-nav-active #mobile-nav-toggle i {
   float: left;
   overflow: hidden;
   margin: 10px 1%;
-  min-width: 320px;
-  max-width: 480px;
-  max-height: 360px;
-  width: 48%;
-  background: #3085a3;
+  min-width: 300px;
+  max-width: 400px;
+  max-height: 290px;
+  width: 20%;
+  /*background: #3085a3;*/
   text-align: center;
   cursor: pointer;
 }
@@ -1992,10 +1996,12 @@ body.mobile-nav-active #mobile-nav-toggle i {
 .grid figure h2 {
   word-spacing: -0.15em;
   font-weight: 300;
+  font-size: .9em;
 }
 
 .grid figure h2 span {
   font-weight: 800;
+  font-size: .9em;
 }
 
 .grid figure h2,
@@ -2005,7 +2011,7 @@ body.mobile-nav-active #mobile-nav-toggle i {
 
 .grid figure p {
   letter-spacing: 1px;
-  font-size: 68.5%;
+  font-size: 50.5%;
 }
 
 
@@ -2344,15 +2350,9 @@ section.participacion:before {
  border-radius:40px
 }
 .noticias article figure.has-overlay {
- height:100%
+ /*height:100%*/
 }
-.noticias article:hover h2:after {
- margin-left:10px;
- opacity:1
-}
-.noticias article:hover .has-overlay:after {
- background-color:rgba(65,74,82,0.8)
-}
+
 .noticias article ul.article-footer {
  padding-top:15px;
  border-top:solid 1px #E5E7E9
@@ -2378,11 +2378,11 @@ section.participacion:before {
  color:#414A52
 }
 .noticias figcaption h2:after {
- font-family:FontAwesome;
- content:'\f105';
+ font-family:Roboto;
+ /*content:'\f105';*/
  -webkit-transition:all 300ms;
  transition:all 300ms;
- opacity:0
+
 }
 .noticias article.article-post {
  position:relative;
@@ -2411,30 +2411,7 @@ section.participacion:before {
  transition:background-color 300ms;
  background-color:rgba(65,74,82,0.6)
 }
-.noticias select#inputArticle-Sort {
- font-size:13px;
- width:300px;
- margin-left:25px;
- padding-bottom:9px;
- -webkit-transition:all 300ms;
- transition:all 300ms;
- text-indent:.01px;
- text-overflow:'';
- color:rgba(65,74,82,0.5);
- border:none;
- border-bottom:solid 2px #7AE2DE;
- background:url("../img/dd-arrow.png") no-repeat;
- background-color:none;
- background-position:280px 5px;
- -moz-border-radius:0;
- -webkit-border-radius:0;
- border-radius:0;
- -webkit-appearance:none;
- -moz-appearance:none
-}
-.noticias select#inputArticle-Sort:focus {
- outline:none
-}
+
 
 /*Redes sociales flotantes*/
 .sticky-container{
@@ -2587,7 +2564,7 @@ section.participacion:before {
 }
 
 .highcharts-data-table table {
-  font-family: Verdana, sans-serif;
+  font-family: "Roboto";
   border-collapse: collapse;
   border: 1px solid #EBEBEB;
   margin: 10px auto;
@@ -2647,7 +2624,7 @@ input[type="number"] {
 }
 
 #call-to-action .cta-btn {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto";
   font-weight: 700;
   font-size: 16px;
   letter-spacing: 1px;
@@ -2677,7 +2654,7 @@ input[type="number"] {
 
 #about2 .about2-content h2 {
   color: #413e66;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto";
   font-weight: 700;
 }
 
@@ -2761,7 +2738,7 @@ input[type="number"] {
   box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
   transition: all 0.3s ease-in-out;
   text-align: center;
-  background: url(../../img/about-img.jpeg) no-repeat fixed center;
+  /*background: url(../../img/about-img.jpeg) no-repeat fixed center;*/
    -webkit-background-size: cover;
    -moz-background-size: cover;
    -o-background-size: cover;
@@ -2810,18 +2787,26 @@ input[type="number"] {
 }
 
 .letrasoff{
+  /*
 font-size: 1em;
 text-align: justify;
-font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+font-family: Roboto";
 font-weight: 100;
 line-height: 1;
+*/
+font-size:1em; 
+text-align: justify; 
+margin-right: 15px;
+margin-left: 15px; 
+font-family: Roboto;
+
 }
 
 .letrasoff2{
 
 font-size: 1em;
 text-align: center;
-font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+font-family: "Roboto";
 font-weight: 100;
 line-height: 1;
 }
@@ -2829,7 +2814,7 @@ line-height: 1;
 .letrasoff3{
 font-size: 1em;
 text-align: justify;
-font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+font-family: "Roboto";
 font-weight: 100;
 line-height: 1;
 color:white;
@@ -2840,9 +2825,173 @@ color:white;
 
 font-size: 1.3em;
 text-align: center;
-font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+font-family: "Roboto";
 font-weight: 200;
 line-height: 1;
+}
+
+
+.titulos h1,h2,h3,h4,h5,h6 {
+  font-family: Roboto;
+  color: #000;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  line-height: 2;
+}
+
+.tituloswebinar  {
+  font-family: Roboto;
+  color: #000;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  line-height: 1;
+}
+
+.titulosB h1,h2,h3,h4,h5,h6 {
+  font-family: Roboto;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  line-height: 2;
+}
+
+.contenidosDiagnostico{
+  font-size:1em; 
+text-align: center;
+vertical-align: middle;
+margin-right: 15px;
+margin-left: 15px; 
+font-family: Roboto;
+color: #000;
+}
+
+.titulosDiagnostico {
+  font-family: Roboto;
+  color: #fff;
+  font-size: 1.3em;
+  font-weight: 400;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  line-height: 1;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.listas{
+  font-size:20px; 
+text-align: justify; 
+margin-right: 15px;
+margin-left: 15px; 
+font-family: Roboto;
+color: #000;
+ letter-spacing: 2px;
+}
+
+.listas_pimus{
+  font-size:1em; 
+text-align: justify; 
+font-family: Roboto;
+color: #000;
+letter-spacing: 0px;
+}
+
+.contenidos{
+  font-size:1.3em; 
+text-align: justify; 
+margin-right: 15px;
+margin-left: 15px; 
+font-family: Roboto;
+color: #000;
+}
+
+.contenidos2{
+  font-size:1.3em; 
+text-align: center; 
+margin-right: 15px;
+margin-left: 15px; 
+font-family: Roboto;
+color: #000;
+
+}
+
+.contenidos3{
+  font-size:1em; 
+text-align: justify; 
+margin-right: 15px;
+margin-left: 15px; 
+font-family: Roboto;
+color: #FFF;
+}
+
+.contenidos_movilidad{
+  overflow-y: scroll;
+  height:100%;
+  /*width: 100%;*/
+  font-size:.9em; 
+text-align: justify; 
+margin-right: 25px;
+margin-left: 15px; 
+font-family: Roboto;
+color: #000;
+font-weight: bolder;
+}
+
+.contenidos_webinar{
+  font-size:1em; 
+text-align: justify; 
+margin-right: 15px;
+margin-left: 15px; 
+font-family: Roboto;
+color: #000;
+background-color: #fff;
+}
+
+.tituloprincipal{
+   font-family: Roboto;
+  font-size:.9em; 
+  text-align: justify; 
+  margin-right: 65px;
+  margin-left: 45px; 
+  font-weight: 400;
+    outline: none;
+    letter-spacing: 0;
+    transition: 0.3s;
+}
+
+.box{
+    padding:0px 0px;
+}
+
+.box-part{
+    background:#FFF;
+    border-radius:0;
+    padding:60px 10px;
+    margin:30px 0px;
+}
+.text{
+    margin:20px 0px;
+    font-family: Roboto;
+    font-style: oblique;
+}
+
+.fa{
+     color:#4183D7;
+}
+
+.noticia_enlace{
+  text-decoration:none; 
+  color: #0062cc;
+  border-bottom:0px solid #0062cc;
+  font-family: Roboto;
+  font-size: .8em;
+  font-style: oblique;
+  font-weight: bolder;
 }
 
 /*
@@ -2850,9 +2999,14 @@ font-size: 1.3em;
 text-align: justify;
 margin-right: 65px;
 margin-left: 45px;
-font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+font-family: Roboto";
 font-weight: 400;
 line-height: 1.5;
+
+5538803050 
+
+4425168318
+
 */
 
 
